@@ -206,18 +206,17 @@ ul {
 
 .About__btnca {
     width: 130px;
-    height: 50px;
+    height: 40px;
     margin-top: 134px;
     font-family: 'Sen';
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
+    font-size: 18px;
     display: flex;
     align-items: center;
     color: #0e0e13;
-    box-shadow: 5px 5px #8a9092;
-
+    border-style: none;
+    border-bottom: 2px solid rgba(132, 145, 160, 1);
+    background-color: #FFF3E4;
 }
 
 
@@ -280,18 +279,17 @@ ul {
 
 .our__btnca {
     width: 135px;
-    height: 50px;
+    height: 40px;
     margin-top: 134px;
-    font-family: 'Sen';
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
+    font-size: 17px;
     display: flex;
     align-items: center;
-    color: #0e0e13;
-    box-shadow: 5px 5px #8a9092;
-
+    text-align: center;
+    color: #0e0e13; 
+    border-style: none;
+    border-bottom: 2px solid rgba(132, 145, 160, 1);
+    background-color: #FBE4FF;
 }
 
 
@@ -383,3 +381,81 @@ ul {
 .User__li {
     margin-right: 24px;
 }
+
+
+/* ///////////////////  START FRAME-9 SECTION  \\\\\\\\\\\\\\\\\\\\\\  */
+
+.frame-9 {
+    width: 1440px;
+    margin-left: 40px;
+    padding: 1px 0;
+    height: 715px;  
+    background-color: black;
+}
+
+.frame-9-wrap {
+    display: flex;
+}
+
+.frame-9-title {
+    margin-top: 120px;
+    font-size: 16px;
+    color: rgba(132, 145, 160, 1);
+    text-transform: uppercase;
+    margin-left: 72px;
+}
+
+.frame-9 h1 {
+    font-size: 55px;
+    width: 690px;
+    height: 72px;
+    color: white;
+    margin-left: 72px;
+}
+
+.frame-9-wrap {
+    margin-left: 82px;
+    margin-top: -50px;
+}
+
+.frame-9-item {
+    width: 416px;
+    height: 247px;
+    margin-left: 24px;
+}
+
+.frame-9-item h4 {
+    color: rgba(132, 145, 160, 1);
+    font-size: 110px;
+    font-weight: 400;
+}
+
+.frame-9-h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    width: 339px;
+    margin-top: -130px;
+}
+
+.span-color-frame-9-1 {
+    color: rgba(60, 199, 78, 1);
+}
+
+.span-color-frame-9-2 {
+    color: rgba(96, 155, 255, 1);
+}
+
+.span-color-frame-9-3 {
+    color: rgba(233, 93, 144, 1);
+}
+
+.frame-9-item p {
+    color: rgba(132, 145, 160, 1);
+    font-size: 16px;
+    width: 368px;
+    height: 48px;
+}
+
+
+
+/* ///////////////////  END FRAME-9 SECTION  \\\\\\\\\\\\\\\\\\\\\\  */
