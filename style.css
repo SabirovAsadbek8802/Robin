@@ -1,3 +1,7 @@
+* {
+    font-family: 'Protest Revolution';
+}
+
 html {
     height: 100%;
     box-sizing: border-box;
@@ -39,6 +43,97 @@ img {
     vertical-align: middle;
     object-fit: cover;
 }
+
+/* ////////////////    START HERO SECTION   \\\\\\\\\\\\\\\\\\\ */
+
+header {
+    width: 1440px;
+    margin-left: 40px;
+    background-color: #181823;
+}
+
+.nav {
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 120px;
+}
+
+.logo {
+    background-color: rgba(0,0,0,255);
+    height: 850px;
+    width: 40%;
+}
+
+.logo h2 {
+    color: white;
+    margin-left: 50px;
+}
+
+.nav-item a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover {
+    background-color: #1e1ebd;
+}
+
+#robin-img {
+    position: absolute;
+    width: 750px;
+    height: 650px;
+    top: 100px;
+}
+
+
+
+.hero-inner-wrap {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    width: 738px;
+    height: 368px;
+    color: white;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.span-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-inner-wrap h1 {
+    font-size: 72px;
+    
+}
+
+.hero-inner-wrap p{
+    font-size: 18px;
+    width: 738px;
+    height: 54px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 27px;
+}
+
+
+
+
+/* ////////////////    END HERO SECTION   \\\\\\\\\\\\\\\\\\\ */
+
+
+
 
 .li,
 a,
